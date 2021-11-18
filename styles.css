@@ -1,0 +1,293 @@
+body {
+    background-color: #e5e5e5;
+    font-family: Nunito;
+    font-weight: 200;
+}
+
+.navbar {
+    background-color: #14213d;
+    margin-bottom: 3rem;
+}
+
+.nav-link {
+    font-weight: 400;
+    color: #fca311;
+}
+
+.search-button:hover {
+    background-color: #fca311;
+}
+
+.register,
+.login {
+    background-color: #14213d;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.register:hover,
+.login:hover {
+    background-color: #fca311;
+}
+
+#btn {
+    position: sticky;
+    bottom: 0;
+    width: 150px;
+    align-self: center;
+    transform: translateY(-50%);
+    margin-top: 20px;
+    background-color: #fca311;
+    opacity: 0.5;
+}
+
+.customklasa {
+    height: 100%;
+}
+
+svg.bi.bi-house {
+    height: 30px;
+    width: 30px;
+}
+
+#btn:hover {
+    width: 160px;
+    opacity: 1;
+    transition: 0.2s;
+    color: #14213d;
+    font-weight: 600;
+    background-color: #fdbf58;
+}
+
+.link,
+.link:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.bi-house {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.7;
+}
+
+img:hover {
+    opacity: 1.0;
+    transition: 0.4s;
+}
+
+.card-title:hover {
+    color: #fca311;
+    transition: 0.2s;
+    font-size: 20.5px;
+}
+
+.card-text {
+    padding-bottom: 4px;
+}
+
+#navbar-flex {
+    background-color: #14213d;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+    align-items: initial;
+}
+
+.navbar-fluid {
+    background-image: url("https://ftroutetwo.wpengine.com/wp-content/uploads/2019/07/2019-nissan-sentra-interior-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: auto;
+    opacity: 0.6;
+    color: #fca311;
+    font-weight: 700;
+    text-shadow: 2px 2px #14213d;
+}
+
+#subtext {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.navbar-fluid:hover {
+    opacity: 1.0;
+    transition: 0.4s;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background: #fca311;
+}
+
+.lower-footer {
+    background: #14213d;
+    color: lightgray;
+}
+
+.lower-footer-text {
+    text-decoration: dashed;
+    color: #fca311;
+}
+
+.registration {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.login-page-container {
+    background-color: #3c4352;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 60rem;
+    background-size: cover;
+    opacity: 0.7;
+    margin-bottom: 5rem;
+    margin-top: 20px;
+    border-radius: 1rem;
+    border: 1px solid #fca311;
+    align-items: center;
+    transform: translateY(10%);
+
+}
+
+.login-page-container:hover {
+    opacity: 0.9;
+    transition: 0.2s;
+}
+
+.form-group,
+.form-check {
+    align-items: center;
+}
+
+#email,
+#password {
+    font-weight: 400;
+    color: whitesmoke;
+    border: 1px solid #14213d;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #14213d;
+    margin-bottom: 5px;
+}
+
+#submit {
+    width: 100px;
+    font-weight: 400;
+    color: #14213d;
+    border: 1px solid #14213d;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #fca311;
+    margin-top: 30px;
+    transform: translateX(80%);
+}
+
+#submit:hover {
+    background-color: #14213d;
+    color: #fca311;
+    transition: 0.25s;
+}
+
+#emailHelp {
+    font-weight: 400;
+    color: #14213d;
+    background-color: lightgray;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.form-check-label {
+    font-weight: 400;
+    color: #14213d;
+    background-color: lightgray;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#exampleInputEmail1,
+#exampleInputPassword1 {
+    border-radius: 5px;
+}
+
+.wrapper {
+    background-image: url("https://media.istockphoto.com/photos/classic-cars-picture-id485794548?k=20&m=485794548&s=612x612&w=0&h=FWBmMGT46IJKOleG9gtetdXpYb3Yi-7KhcfmAoPglNI=");
+    ;
+    background-size: cover;
+    padding-bottom: 1rem;
+}
+
+.pic-container {
+    height: 500px;
+    background-image: url("https://media.istockphoto.com/photos/cheerful-senior-man-having-fun-in-his-new-car-picture-id1164689284?k=20&m=1164689284&s=612x612&w=0&h=KQiobYSJCUP-U3Dlyt0XVccujutL1KayoL3N-WHQruU=");
+    opacity: 0.85;
+    background-size: cover;
+    border-radius: 1rem;
+
+}
+
+.form-container {
+    height: 500px;
+    background-color: #f1d6aa;
+    border-radius: 1rem;
+    font-weight: 400;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-main-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-body {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.about-pic {
+    background-image: url("https://lh3.googleusercontent.com/proxy/wOBaOyBDjklXr2vTeaOum2U2n-DK7-bpRvmssaft0iVL71syAGg8YOqXHzP_CxSh9htaYPS_NMluXfStHLu98BYFyzfp6xg7danzlYop6er_t6AdGxvhNp-TjqRnm5GdQqt6gvEGgtBF4K_5HA");
+    background-size: cover;
+    border-radius: 1rem;
+    opacity: 0.85;
+    height: 412px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 736px) {
+    .glavna-klasa {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    #subNavbar {
+        display: none;
+    }
+}
